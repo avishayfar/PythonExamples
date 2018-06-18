@@ -275,7 +275,7 @@ while True:
         # Prompt for Player to Hit or Stand
         hit_or_stand(deck,player_hand) 
         
-        # Show cards (but keep one dealer card hidden)
+        # Show cards  (but keep one dealer card hidden)
         show_some(player_hand,dealer_hand)  
         
         # If player's hand exceeds 21, run player_busts() and break out of loop
